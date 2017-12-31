@@ -72,7 +72,7 @@ resetButton.addEventListener("click", function(){
 		squares[i].style.background = colors[i];
 	}
 
-	h1.style.backgroundColor = "#232323";
+	h1.style.backgroundColor = "#grey";
 
 });
 
@@ -96,7 +96,7 @@ for(i = 0; i < squares.length; i++) {
 			h1.style.backgroundColor = clickedColor;
 
 		} else {
-			this.style.backgroundColor = "#232323";
+			this.style.backgroundColor = "#grey";
 			messageDisplay.textContent = "Try Again";
 		}
 
